@@ -5,6 +5,9 @@ Ec2インスタンスを対象にしています。
 対象インスタンスのipアドレスは、動的インベントリプラグインを用いて、インスタンスの`EnvType`タグから取得します。  
 実行内容は、git,mysql,nginx,nodejs,railsのインストールとなります。
 
+https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html
+
+
 # Diagram
 ```
 ansible-test
