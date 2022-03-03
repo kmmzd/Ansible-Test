@@ -1,0 +1,15 @@
+plugin: aws_ec2
+regions:
+  - ap-northeast-1
+
+# Ignores 403 errors rather than failing. 403=権限がなくてアクセスに失敗する。
+strict_permissions: False
+
+# EnvTypeタグでグループ分け。
+groups:
+  dev: "tags.EnvType == 'dev'"
+  prod: "tags.EnvType == 'prod'"
+
+  
+hostnames: 
+  - network-interface.association.public-ip
