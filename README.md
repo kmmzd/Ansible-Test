@@ -7,7 +7,6 @@ Ec2インスタンスを対象にしています。
 
 https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html
 
-
 # Diagram
 ```
 ansible-test
