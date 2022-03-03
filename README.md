@@ -2,7 +2,8 @@
 ansible sample tenplate.  
 Ansibleのサンプルリポジトリです。  
 Ec2インスタンスを対象にしています。  
-対象インスタンスのipアドレスは、動的インベントリプラグインを用いて`EnvType`タグから取得します。
+対象インスタンスのipアドレスは、動的インベントリプラグインを用いて`EnvType`タグから取得します。  
+実行内容は、git,mysql,nginx,nodejs,railsのインストールとなります。
 
 # Diagram
 ```
@@ -33,7 +34,7 @@ aws_ec2インベントリプラグインを用い、ipアドレスを取得す�
 
 # roles
 具体的な設定内容を各main.ymlに記述しています。  
-rubyの設定のみ、jinja2テンプレートを利用しています。
+rubyのみ、jinja2テンプレートを利用しています。
 
 # ansible.cfg  
 SSH接続、インベントリファイルのパスの設定を記述しています。
