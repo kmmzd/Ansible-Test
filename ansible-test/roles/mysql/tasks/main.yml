@@ -7,7 +7,7 @@
 - name: install mysql-community-client
   yum:
     name: mysql-community-client
-    state: latest
+    state: present
 
 
 
