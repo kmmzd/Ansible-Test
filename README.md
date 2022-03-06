@@ -7,7 +7,7 @@ Ec2インスタンスを対象にしています。
 
 [amazon.aws.aws_ec2 – EC2 inventory source](https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html)
 
-# Diagram
+# Directory structure
 ```
 ansible-test
 ├── hosts
